@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "a simple port forwarding that just works",
   "main": "index.js",
+  "preferGlobal": true,
   "bin": {
     "nst": "./index.js"
   },
