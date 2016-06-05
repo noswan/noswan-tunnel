@@ -1,0 +1,27 @@
+{
+  "name": "noswan-tunnel",
+  "version": "0.0.1",
+  "description": "a simple port forwarding that just works",
+  "main": "index.js",
+  "bin": {
+    "nst": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noswan/noswan-tunnel.git"
+  },
+  "keywords": [
+    "tunnel",
+    "forwarding"
+  ],
+  "author": "Ya Zhuang <zhuangya@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noswan/noswan-tunnel/issues"
+  },
+  "homepage": "https://github.com/noswan/noswan-tunnel#readme",
+  "dependencies": {
+    "http-port-forward": "^2.0.3",
+    "meow": "^3.7.0"
+  }
+}
