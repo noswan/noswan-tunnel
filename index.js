@@ -10,4 +10,4 @@ const cli = meow(`
     $ nwt -u <url> -t [to_port]
 `);
 
-lib(cli.flags.u, cli.flags.t);
+lib(cli.flags.u, cli.flags.t, lib.printqr);
