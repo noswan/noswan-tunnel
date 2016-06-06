@@ -17,6 +17,5 @@ module.exports = (dest, port, cb) => {
 };
 
 module.exports.printqr = wat => {
-  console.log('wat: ', wat);
   qr.generate(wat);
 };

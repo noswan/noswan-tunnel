@@ -7,7 +7,14 @@ const lib = require('./lib');
 
 const cli = meow(`
   Usage nwt
-    $ nwt -u <url> -t [to_port]
+    $ nwt <url> <port>
 `);
 
-lib(cli.flags.u, cli.flags.t, lib.printqr);
+cli.input.push(lib.printqr);
+
+if (cli.input.length !== 3) {
+  console.log(cli.help);
+  process.exit(1);
+}
+
+lib.apply(null, cli.input);
