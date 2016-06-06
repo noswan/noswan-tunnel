@@ -1,6 +1,6 @@
 {
   "name": "noswan-tunnel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a simple port forwarding that just works",
   "main": "index.js",
   "preferGlobal": true,
